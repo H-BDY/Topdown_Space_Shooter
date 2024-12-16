@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Play_Screen.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Animation_Screen.unity
+    guid: 3b6766a279d6f70448e83c822a0d79d9
+  - enabled: 1
     path: Assets/Scenes/Story_Screen.unity
     guid: 590949956bc31184a80d987716772000
   m_configObjects: {}
