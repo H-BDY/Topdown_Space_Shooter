@@ -241,10 +241,52 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4f02095f3e3aff4f968bc12ac86d525, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2233383253680641837}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4f02095f3e3aff4f968bc12ac86d525, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8764524781288592014}
   m_SourcePrefab: {fileID: 100100000, guid: d4f02095f3e3aff4f968bc12ac86d525, type: 3}
 --- !u!4 &8371476724958035204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d4f02095f3e3aff4f968bc12ac86d525, type: 3}
   m_PrefabInstance: {fileID: 8333854791787584239}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9180206407270705086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d4f02095f3e3aff4f968bc12ac86d525, type: 3}
+  m_PrefabInstance: {fileID: 8333854791787584239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2233383253680641837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9180206407270705086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &8764524781288592014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9180206407270705086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7815f90bb94492943a57cc4dd6b4e7df, type: 2}
